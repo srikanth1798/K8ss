@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-deployment
   labels: myapp1
-  namespace: deafult
+  namespace: default
 spec:
   replicas: 2
   selector:
